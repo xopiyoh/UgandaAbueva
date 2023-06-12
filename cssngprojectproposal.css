@@ -1,0 +1,216 @@
+.column {
+  float: center;
+  width: 25%;
+  padding: 20px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+.container1 {
+  position: relative;
+  width: 120%;
+  height: 850px;
+  right: 50px;
+  
+}
+
+.container2 {
+  position: relative;
+  width: 160%;
+height: 850px;
+right: 0px;
+}
+
+.container3 {
+  position: relative;
+  width: 120%;
+height: 850px;
+left: 173px;
+}
+
+.container4 {
+  position: relative;
+  width: 150%;
+height: 850px;
+right: 100px;
+}
+
+.container5 {
+  position: relative;
+  width: 120%;
+height: 850px;
+left: 57px;
+
+}
+
+.container6 {
+  position: relative;
+  width: 150%;
+height: 850px;
+left: 123px;
+
+}
+
+.container7 {
+  position: relative;
+  width: 110%;
+height: 850px;
+right: 50;
+}
+
+.container8 {
+  position: relative;
+  width: 160%;
+height: 850px;
+right: 300px;
+}
+
+.container9 {
+  position: relative;
+  width: 10%;
+height: 85px;
+left: 17px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3C6255;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  height: 100%;
+}
+
+.container2:hover .overlay {
+  height: 100%;
+}
+
+.container3:hover .overlay {
+  height: 100%;
+}
+
+.container4:hover .overlay {
+  height: 100%;
+}
+
+.container5:hover .overlay {
+  height: 100%;
+}
+
+.container6:hover .overlay {
+  height: 100%;
+}
+
+.container7:hover .overlay {
+  height: 100%;
+}
+
+.container8:hover .overlay {
+  height: 100%;
+}
+
+.container9:hover .overlay {
+  height: 100%;
+}
+
+.container10:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 11px;
+  font-family: Futura;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header {
+  padding: 2px;
+  text-align: center;
+  background-image: url('blue.jpeg');
+  color: white;
+  font-size: 25px;
+  font-family: Futura;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFF8DE;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: Futura;
+  font-size: 23px;
+  text-align: center;
+  padding: 15px 290px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right; 
+}
+
+.navbar a:hover {
+  background-color: #FFF8DE;
+  color: black;
+}
+
+.center {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  align: center;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FFF8DE;
+   color: black;
+   text-align: center;
+}
+
+.mySlides {
+   align: center;
+}
+
+        .secret {
+            width: 50px;
+            height: 50px;
+            position: center;
+            background: beige;
+            color: black;
+            text-align: center;
+            vertical-align: center;
+            font-size: large;
+            display: table-cell;
+            padding: 24px;
+            transition: width 2s, height 2s, transform 2s;
+            opacity: 0.5;
+
+}
