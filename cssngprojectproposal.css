@@ -54,27 +54,6 @@ left: 123px;
 
 }
 
-.container7 {
-  position: relative;
-  width: 110%;
-height: 850px;
-right: 50;
-}
-
-.container8 {
-  position: relative;
-  width: 160%;
-height: 850px;
-right: 300px;
-}
-
-.container9 {
-  position: relative;
-  width: 10%;
-height: 85px;
-left: 17px;
-}
-
 .image {
   display: block;
   width: 100%;
@@ -117,21 +96,6 @@ left: 17px;
   height: 100%;
 }
 
-.container7:hover .overlay {
-  height: 100%;
-}
-
-.container8:hover .overlay {
-  height: 100%;
-}
-
-.container9:hover .overlay {
-  height: 100%;
-}
-
-.container10:hover .overlay {
-  height: 100%;
-}
 
 .text {
   color: white;
@@ -199,18 +163,4 @@ left: 17px;
    align: center;
 }
 
-        .secret {
-            width: 50px;
-            height: 50px;
-            position: center;
-            background: beige;
-            color: black;
-            text-align: center;
-            vertical-align: center;
-            font-size: large;
-            display: table-cell;
-            padding: 24px;
-            transition: width 2s, height 2s, transform 2s;
-            opacity: 0.5;
-
-}
+        
